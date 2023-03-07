@@ -1,0 +1,22 @@
+* {
+  color: white;
+}
+body {
+  background-color: rgba(48, 60, 82, 255);
+}
+
+h3 {
+  color: rgb(245, 245, 10);
+}
+h2 {
+  background-color: rgb(245, 245, 10);
+  color: black;
+  width: 100vw;
+  height: auto;
+  border: 2px solid;
+  border-color: black;
+}
+
+#astronomia {
+  color: #e74c3c;
+}

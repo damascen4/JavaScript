@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <legend>Cadastro da liga dos astronautas</legend>
+      <br>
+      Nome:
+      <input type="text" name="nome" placeholder="Digite seu nome.." required/>
+      <br />
+      <br />
+      Email:
+      <input type="email" name="email" placeholder="Informe o seu e-mail..." required/>
+      - Password:
+      <input type="password" placeholder="informe sua senha..." required/>
+      <br /><br />
+      Data de nascimento:
+      <input type="date" name="data" required/>
+      - Foto
+      <input type="file" name="Escolher Arquivo" id="filesearch" required/>
+      <br /><br />
+      Nacionalidade:
+      <select name="nacionalidade" id="nacionalidade" required>
+        <option value=></option>
+        <option value="BR">Brasileiro</option>
+        <option value="US">Americano</option>
+        <option value="RU">Russo</option>
+        <option value="EU">Europeu</option>
+      </select>
+      - Genero:
+      M <input type="radio">
+      F <input type="radio">
+      <br><br>
+      Suas principais qualidades: <br>
+      Inteligência <input type="checkbox"> | Resiliência <input type="checkbox"> | Preparo fisico <input type="checkbox"> | Educação <input type="checkbox"> |
+      <br><br>
+      <textarea name="Message" id="message" cols="56" rows="10"></textarea>
+      <br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

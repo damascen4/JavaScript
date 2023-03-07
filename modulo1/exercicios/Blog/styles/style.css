@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat";
+  padding-bottom: 20px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  padding: auto 0 auto 0;
+}
+
+.post-container {
+  width: 80vw;
+  margin: auto;
+}
+
+.post {
+  background-color: #fffafa;
+  height: 23vh;
+  margin: auto;
+  padding: 20px 50px;
+}
+.date {
+  font-family: "Roboto";
+  padding-bottom: 20px;
+}
+
+.post-content {
+  font-family: "Open Sans";
+}

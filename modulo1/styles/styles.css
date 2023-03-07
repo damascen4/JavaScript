@@ -1,0 +1,11 @@
+hr {
+  width: 80vw;
+  height: 2px;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
